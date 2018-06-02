@@ -24,7 +24,7 @@ object DataSetWordCount {
     val counts = groupedWords.count()
 
     counts.show()
-
+   sparkSession.close()
 
   }
 
